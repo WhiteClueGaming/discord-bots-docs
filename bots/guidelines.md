@@ -6,7 +6,7 @@ description: >-
 
 # Guidelines
 
-### Bots Must Not
+### Bots Must Not [ This things bot should not do. ]
 
 * Break the [Discord TOS](https://discord.com/terms)
 * Show NSFW content, or list NSFW commands in a non NSFW channel
@@ -14,7 +14,7 @@ description: >-
 * Require a powerful permission for most features \(e.g. ADMINISTRATOR\)
 * Make it hard to view commands \(i.e. no help command\)
 * Have broken core features \(i.e. help command does not work\)
-* Have no features 🐔
+* Have no features 
 * Post inaccurate stats
 
 ### Bot Listings Must Not
@@ -28,9 +28,9 @@ description: >-
 
 ### Bot Owners Must Not
 
-* Leave the DBots server, as this will delete your bot from the list
+* Leave the Discord Bots server, as this will delete your bot from the list
 
-By adding a bot to [DBots](/), you agree that if the bot breaks **any** of these guidelines, it will be **declined**.
+By adding a bot to [DBots.ml](/), you agree that if the bot breaks **any** of these guidelines, it will be **declined**.
 
 ### Queued Bots Must Not
 
@@ -44,5 +44,5 @@ By adding a bot to [DBots](/), you agree that if the bot breaks **any** of these
 * Respond to non-prefixed commands
 * Spontaneously send messages
 
-Bot removal from the DBots Discord server would mean that your bot does **not appear** on the bot list.
+Bot removal from the DBots.ml Discord server would mean that your bot does **not appear** on the bot list.
 
