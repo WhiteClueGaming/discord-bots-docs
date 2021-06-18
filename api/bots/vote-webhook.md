@@ -1,7 +1,6 @@
 ---
 description: >-
-  Bot stats for bots on DBots.ml that can be used to make graphs and cool
-  things.
+  Track that who voted for your discord bot using the vote tracker!
 ---
 
 # Bot Stats
