@@ -1,26 +1,24 @@
 ---
-description: 'This guide will show you how to get started with DBots, and add a bot.'
+description: 'This guide will show you how to get started with discord bots, and add a discord bot here.'
 ---
 
 # Get Started
 
 ### Step 1
 
-**Join the DBots Server** Make sure you are in the [DBots Discord Server](https://discord.gg/uDTgxyg) to enable you to add a bot.
+**You must be on our server!** Make sure you are in the [Discord bots Discord Server](https://discord.gg/XmMU6PXN9t) to enable you to add a bot.
 
-![](.gitbook/assets/join-the-server.png)
+![](https://media.discordapp.net/attachments/840862485287534593/855340757884076062/Screenshot_20210618_122841.jpg)
 
 ### Step 2
 
-**Add a Bot** [Login]([https://dbots.co/login) to the DBots Dashboard to your server. This will redirect you to a Discord OAuth2 link which should auto login to DBots, with your currently logged-in Discord account. After logging into the dashboard, you can [add a bot](/dashboard/bots/new) by clicking on the '+' icon.
+**Add a Bot** [Login]([https://dbots.ml/login) to the discord bots Dashboard to your server. This will redirect you to a Discord OAuth2 link which should auto login to Discord bots, with your currently logged-in Discord account. After logging into the dashboard, you can [add a bot](https://dbots.ml/addbot) by clicking on the 'Addbot' icon.
 
-![](.gitbook/assets/add-bot.png)
-
-![](.gitbook/assets/add-a-bot.png)
+![](https://media.discordapp.net/attachments/840862485287534593/855340528442802196/Screenshot_20210618_122648.jpg)
 
 ### Step 3
 
-**Fill in the Form and Post** Fill in the form and post. Your bot has now been added to the approval queue! Please be patient, and if you have correctly followed the [Bot Guidelines](/docs/guidelines) your bot may be accepted.
+**Fill in the Form and Post** Fill in the form and post. Your bot has now been added to the approval queue! Please be patient, and if you have correctly followed the Bot Guidelines your bot may be accepted.
 
-![](.gitbook/assets/add-bot-form.png)
+![](https://media.discordapp.net/attachments/840862485287534593/855340528249208842/Screenshot_20210618_122742.jpg)
 
