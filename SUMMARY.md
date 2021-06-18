@@ -8,18 +8,8 @@
 * [General](api/general.md)
 * [Bots](api/bots/README.md)
   * [Post Stats](api/bots/post-stats/README.md)
-    * [C\#](api/bots/post-stats/csharp.md)
     * [Node.js](api/bots/post-stats/nodejs.md)
-  * [Bot Packs](api/bots/bot-packs.md)
   * [Bot Stats](api/bots/bot-stats.md)
+  * [Vote Webhook](api/bots/vote-webhook.md)
   * [Manage Bots](api/bots/manage-bots.md)
-
-## Bots
-
-* [Guidelines](bots/guidelines.md)
-
-## Other
-
-* [Credits](other/credits.md)
-* [License](https://github.com/DBots-co/Website/blob/stable/LICENSE)
 
