@@ -16,17 +16,18 @@ npm i discord.dbl
 # Example
 
 ```js
-const express = require("express")
-const app = express()
+const discord = require("discord.js")
+const client = new discord.Client()
+const dbots = require("discord.dbl");
+const dbl = new dbots("API-TOKEN-HERE", client, { autoPost: 900001 });
 
-client.on("ready", async () => {
-  console.log("bot online")
-});
-
-app.post("/dblwebhook", async (req,res) => {
-const voter = req.header('voterID')
-console.log(voter) //it will log the user ID
+client.on('ready', async () => {
+  dbl.Webhook() //No need to put any thing in this brackets!
+})
+dbl.on("voted", voter => {
+  console.log(`A user with ID: ${voter} has voted me!`) //Now only you can get users ID!
 })
 
+client.login("BOT-LOGIN-TOKEN")
 ```
 
