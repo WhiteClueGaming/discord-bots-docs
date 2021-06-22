@@ -22,7 +22,7 @@ Simple package to easily post stats to [dbots.ml](https://dbots.ml).
 
 ```javascript
 const dbots = require("discord.dbl");
-const dbl = new dbots("API-TOKEN-HERE", client);
+const dbl = new dbots("API-TOKEN-HERE", client, { autoPost: 900001 });
 
 client.on("ready", async () => {
   dbl.postStats(); => Note: You can only use this package for discord.js use
