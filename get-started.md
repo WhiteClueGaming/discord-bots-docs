@@ -6,7 +6,7 @@ description: 'This guide will show you how to get started with discord bots, and
 
 ### Step 1
 
-**You must be on our server!** Make sure you are in the [Discord bots Discord Server](https://discord.gg/XmMU6PXN9t) to enable you to add a bot.
+**You must be on our discord server!** Make sure you are in the [Discord bots Discord Server](https://discord.gg/XmMU6PXN9t) to enable you to add a bot.
 
 ![](https://media.discordapp.net/attachments/840862485287534593/855340757884076062/Screenshot_20210618_122841.jpg)
 
