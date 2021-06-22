@@ -9,6 +9,7 @@
 * [Bots](api/bots/README.md)
   * [Post Stats](api/bots/post-stats/README.md)
     * [Node.js](api/bots/post-stats/nodejs.md)
+    * [Python](api/bots/post-stats/python.md)
   * [Bot Stats](api/bots/bot-stats.md)
   * [Vote Webhook](api/bots/vote-webhook.md)
   * [Manage Bots](api/bots/manage-bots.md)
