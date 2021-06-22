@@ -18,7 +18,7 @@ npm i discord.dbl
 
 ```js
 const dbots = require("discord.dbl");
-const dbl = new dbots("API-TOKEN-HERE", client);
+const dbl = new dbots("API-TOKEN-HERE", client, { autoPost: 900001 });
 //Note: you will get Api token on your bots edit page!
 
 client.on("ready", async () => {
