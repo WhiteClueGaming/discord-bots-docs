@@ -13,6 +13,13 @@ Install our npm package!
 npm i discord.dbl
 ```
 
+# Set-up
+
+Got to your bots edit page and add it there!
+```js
+https://<project>.<domain>/vote
+```
+
 # Example
 
 ```js
