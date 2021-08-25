@@ -18,6 +18,22 @@ $ npm i discord.dbl
 
 Simple package to easily post stats to [dbots.ml](https://dbots.ml). 
 
+### Direct
+
+**With Header**
+
+```
+require("node-fetch")(`https://discordz.xyz/api/bots/stats`, {
+        method: 'POST',
+        headers: { 
+          'serverCount': this.client.guilds.cache.size,
+          'userCount': this.client.users.cache.size,
+          'Content-Type': 'application/json', 
+          'Authorization': this.token
+        },
+    }).then(() => this.emit("posted")).catch((e) => this.emit("error", e));
+```
+
 ### NodeJS
 
 ```javascript
