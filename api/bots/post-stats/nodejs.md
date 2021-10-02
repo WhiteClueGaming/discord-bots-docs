@@ -29,9 +29,9 @@ require("node-fetch")(`https://discordz.xyz/api/bots/stats`, {
           'serverCount': this.client.guilds.cache.size,
           'userCount': this.client.users.cache.size,
           'Content-Type': 'application/json', 
-          'Authorization': this.token
+          'Authorization': "Auth Token"
         },
-    }).then(() => this.emit("posted")).catch((e) => this.emit("error", e));
+    })
 ```
 
 ### NodeJS
