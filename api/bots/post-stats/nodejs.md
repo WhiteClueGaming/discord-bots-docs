@@ -34,6 +34,19 @@ require("node-fetch")(`https://discordz.xyz/api/bots/stats`, {
     })
 ```
 
+**With Body**
+
+```
+require("node-fetch")(`https://discordz.xyz/api/bot/stats/:botID`, {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json', 
+          'Authorization': "Auth Token"
+        },
+        body: JSON.stringify({"server_count": 0, "shard_count": 0, "user_count": 0 })
+    })
+```
+
 ### NodeJS
 
 ```javascript
