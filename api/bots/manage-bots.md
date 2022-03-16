@@ -1,5 +1,5 @@
 ---
-description: Manage bots via the DBots API.
+description: Manage bots via the discordz site.
 ---
 
 # Manage Bots
