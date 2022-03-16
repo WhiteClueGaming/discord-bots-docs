@@ -1,5 +1,5 @@
 ---
-description: A guide on posting stats to dbots.ml
+description: A guide on posting stats to discordz.xyz
 ---
 
 # Post Stats
