@@ -22,6 +22,8 @@ https://<project>.<domain>/vote
 
 # Example
 
+## using package
+
 ```js
 const discord = require("discord.js")
 const client = new discord.Client()
@@ -37,4 +39,37 @@ dbl.on("voted", voter => {
 
 client.login("BOT-LOGIN-TOKEN")
 ```
+
+## using express.js
+
+```js
+const express = require("express")
+
+const app = express()
+
+app.use(express.json())
+
+
+app.post("/vote", (req, res) => {
+  
+const voter = req.body
+
+if (req.header('Authorization') != "your auth key you made on site") {
+    return res.status("401").end();
+
+  }
+
+voter.id = voter.voter
+
+console.log(voter)
+
+//Reward code
+
+res.status(200).end()
+
+})
+
+app.listen(9000) 
+```
+
 
