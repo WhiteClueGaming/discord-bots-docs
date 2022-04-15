@@ -1,5 +1,5 @@
 ---
-description: 'How to post stats using Node.js or JavaScript
+description: 'How to post stats using Node.js JavaScript
 ---
 
 # Node.js
@@ -16,28 +16,14 @@ $ npm i discord.dbl
  Make sure to install the latest version for the latest updates and also have discord.js package.
 {% endhint %}
 
-Simple package to easily post stats to [dbots.ml](https://dbots.ml). 
+Simple package to easily post stats to [discordz](https://discordz.gg). 
 
 ### Direct
-
-**With Header**
-
-```
-require("node-fetch")(`https://discordz.xyz/api/bots/stats`, {
-        method: 'POST',
-        headers: { 
-          'serverCount': this.client.guilds.cache.size,
-          'userCount': this.client.users.cache.size,
-          'Content-Type': 'application/json', 
-          'Authorization': "Auth Token"
-        },
-    })
-```
 
 **With Body**
 
 ```
-require("node-fetch")(`https://discordz.xyz/api/bot/stats/:botID`, {
+require("node-fetch")(`https://api.discordz.gg/bot/:botID/stats`, {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json', 
