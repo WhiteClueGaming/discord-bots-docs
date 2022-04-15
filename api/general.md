@@ -1,5 +1,5 @@
 ---
-description: Interact with DBots through HTTP requests.
+description: Interact with discordz through HTTP requests.
 ---
 
 # General
