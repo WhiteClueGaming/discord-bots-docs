@@ -1,5 +1,5 @@
 ---
-description: 'How to post stats using Node.js JavaScript
+description: 'How to post stats using Node.js (JavaScript)
 ---
 
 # Node.js
