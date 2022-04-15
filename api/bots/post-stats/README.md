@@ -1,5 +1,5 @@
 ---
-description: A guide on posting stats to discordz.xyz
+description: A guide on posting stats to discordz.gg
 ---
 
 # Post Stats
