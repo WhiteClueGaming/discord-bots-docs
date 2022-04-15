@@ -30,19 +30,19 @@ description: >-
 
 * Leave the Discord Bots server, as this will delete your bot from the list
 
-By adding a bot to [DBots.ml](/), you agree that if the bot breaks **any** of these guidelines, it will be **declined**.
+By adding a bot to [discordz.gg](discordz.gg/), you agree that if the bot breaks **any** of these guidelines, it will be **declined**.
 
 ### Queued Bots Must Not
 
 * Break these guidelines
 * Be offline during review
 
-### Bots in the DBots Discord Server Must Not
+### Bots in the discordz Discord Server Must Not
 
 * Spam channels 
 * Respond to other bots
 * Respond to non-prefixed commands
 * Spontaneously send messages
 
-Bot removal from the DBots.ml Discord server would mean that your bot does **not appear** on the bot list.
+Bot removal from the discordz.gg Discord server would mean that your bot does **not appear** on the bot list.
 
