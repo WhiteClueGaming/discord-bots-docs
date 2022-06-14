@@ -1,5 +1,5 @@
 ---
-description: 'How to post stats using Python!
+description: How to post stats using Python!
 ---
 
 # Python
