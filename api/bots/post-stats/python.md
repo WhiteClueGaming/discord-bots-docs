@@ -15,14 +15,14 @@ Install the package named requests
 ### Python
 
 ```py
-headers = {
-  'Authorization': 'Your Authorization Bot Token you will get this in bot edit page at down!',
-  'serverCount': 'Your Bot's Servers Count', //if you also have shards put shardCount: count below serverCount!
-  'Content-Type': 'application/json'
-}
-
-response = requests.request("POST", "https://dbots.ml/api/bots/stats", headers=headers)
-print(response.text.encode('utf8'))
+import requests
+botid: int = 1234567890987654321
+req = requests.post(
+  f'https://api.discordz.gg/bot/{botid}/stats', 
+  headers={'Content-Type':'application/json', 'Authorization': "Auth Token"},
+  data={"server_count": 0, "shard_count": 0, "user_count": 0}
+)
+print(req.json())
 ```
 
 
